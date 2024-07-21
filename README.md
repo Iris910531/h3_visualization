@@ -12,32 +12,41 @@ This is a h3 visualization project I conducted during my tenure as a Data Scient
 2.	Charging station : The data on charging station locations across Taiwan is confidential as it originates from a company source.
 
 
+## 3D Visualization Demo Link
 
-## Tools and statistical methods Used
+[Population](https://app.ellipsis-drive.com/view?pathId=94a96cbb-fa8f-4f2a-85d3-00079affb103&state=249c0b16-5854-44d9-95c4-ddf08b69df48)
+
+[Income](https://app.ellipsis-drive.com/view?pathId=94a96cbb-fa8f-4f2a-85d3-00079affb103&state=fe41a0c2-a947-4466-8477-1b3d3253b8d9)
+
+[Charge Sation](https://app.ellipsis-drive.com/view?pathId=94a96cbb-fa8f-4f2a-85d3-00079affb103&state=f37270a1-157f-4605-a9ef-88dc8fd57015)
+
+
+## Tools Used
 
 - **Python**
-- **statistical methods**:
-1. ？？
+
 
 ## Project Structure
 
-README.md # This file.
-data/ # Folder containing the dataset(s).  
-code/ # Folder containing python code files.  
-report/ # Folder containing the project report in .docx format and .pdf format.
+```plaintext
+h3_visualization/
+├── code/                       # Folder containing Python code files.
+│   ├── cal_hexagons.py         # .py file used by h3_visualization.ipynb
+│   └── h3_visualization.ipynb
+├── data/                       # Folder containing geographical data of Taiwan.
+│   ├── TaiwanTownMap           # This folder contains geographical data of Taiwan, organized by town.
+│   ├── TaiwanVillageMap        # This folder contains geographical data of Taiwan, organized by village.
+│   └── Village                 # This folder contains data on the population and income of Taiwan, organized by village.
 
-
-## How to Use
-
-1. Download Python software
-2. Download my Feature_extraction.ipynb and all .py files in code/
-3. Download data/test.jpg
-4. run Feature_extraction.ipynb file
-
+├── report/                     # Folder containing the project report details in .pptx format.
+│   └── h3_visualization_project.pptx
+│
+└── README.md                   # This file.
+```
 
 ## Contact Information
 
 For any further questions or collaboration opportunities, please reach out to me at:
-- Email: [yguo@gmail.com](mailto:yguo@8395@gmail.com)
+- Email: [yguo8395@gmail.com](mailto:yguo8395@gmail.com)
 - LinkedIn: [Iris Kuo](https://www.linkedin.com/in/yi-hsuan-kuo-835b00268/)
 - GitHub: [Iris Kuo](https://github.com/Iris910531)
